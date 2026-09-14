@@ -1,0 +1,62 @@
+{
+  "exam_title": "section E",
+  "total_marks": 5,
+  "questions": [
+    {
+      "question_number": "41",
+      "question_text": "Henry VIII",
+      "max_marks": 1,
+      "criteria": [
+        { "criterion": "ruler", "marks": 0.33 },
+        { "criterion": "married 6 times", "marks": 0.33 },
+        { "criterion": "big eater", "marks": 0.33 }
+      ],
+      "model_answer": "Henry VIII was a ruler who married 6 times and was known to be a big eater.",
+      "start_markers": ["Q41", "41.", "Question 41"]
+    },
+    {
+      "question_number": "42",
+      "question_text": "Mary I",
+      "max_marks": 1,
+      "criteria": [
+        { "criterion": "Daughter of Henry VIII", "marks": 0.33 },
+        { "criterion": "Become ruler", "marks": 0.33 },
+        { "criterion": "after Henry VIII", "marks": 0.33 }
+      ],
+      "start_markers": ["Q42", "42.", "Question 42"]
+    },
+    {
+      "question_number": "43",
+      "question_text": "William the Conqueror",
+      "max_marks": 1,
+      "criteria": [
+        { "criterion": "the ruler", "marks": 0.33 },
+        { "criterion": "Castle", "marks": 0.33 },
+        { "criterion": "Tower of London", "marks": 0.33 }
+      ],
+      "start_markers": ["Q43", "43.", "Question 43"]
+    },
+    {
+      "question_number": "44",
+      "question_text": "Elizabeth I",
+      "max_marks": 1,
+      "criteria": [
+        { "criterion": "Henry VIII 3rd child", "marks": 0.33 },
+        { "criterion": "44 years", "marks": 0.33 },
+        { "criterion": "tudor society", "marks": 0.33 }
+      ],
+      "start_markers": ["Q44", "44.", "Question 44"]
+    },
+        {
+      "question_number": "45",
+      "question_text": "James VI of scotland",
+      "max_marks": 1,
+      "criteria": [
+        { "criterion": "son of elizabeth I", "marks": 0.33 },
+        { "criterion": "rule tudor society", "marks": 0.33 },
+        { "criterion": "after elizabeth I", "marks": 0.33 }
+      ],
+      "start_markers": ["Q45", "45.", "Question 45"]
+    }
+  ]
+}

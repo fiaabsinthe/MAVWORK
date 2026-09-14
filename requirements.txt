@@ -1,0 +1,27 @@
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# --- PDF -> image rendering ---
+PyMuPDF==1.24.10          # fitz - no external poppler binary needed
+
+# --- Stage 2: text-line detection ---
+paddlepaddle==2.6.2       # CPU build; swap for paddlepaddle-gpu if you have CUDA
+paddleocr==2.8.1
+
+# --- Stage 3: handwriting recognition ---
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.44.2
+sentencepiece==0.2.0
+Pillow==10.4.0
+
+# --- Stage 5: grading engine ---
+google-generativeai==0.8.2
+
+# --- misc ---
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+pydantic==2.9.2
+python-dotenv==1.0.1
